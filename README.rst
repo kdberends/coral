@@ -5,7 +5,7 @@
 
 
 
-*coral* is a Python package for efficient uncertainty analysis of model output. The efficiency comes from leveraging a second model, whose output is correlated with the model you are interested in. This may sound like a lot of work, but it can lead to significantly faster uncertainty quantification. And for some applications (like effect studies), it does not actually require any extra modelling work. 
+*coral* is a Python package for efficient uncertainty analysis of model output, built on top of the excellent PyMC3_. The efficiency comes from leveraging a second model, whose output is correlated with the model you are interested in. This may sound like a lot of work, but it can lead to significantly faster uncertainty quantification. And for some applications (like effect studies), it does not actually require any extra modelling work. 
 
 Example usage:
 
@@ -37,4 +37,5 @@ References
 
 .. [#r1] Berends, K.D., Warmink, J.J., Hulscher, S.J.M.H., 2018, Efficient uncertainty quantification for impact analysis of human interventions in rivers, Environmental Modelling & Software 107, 50-58. doi: https://doi.org/10.1016/j.envsoft.2018.05.021 
 
-:: _RiverCare: https://kbase.ncr-web.org/rivercare
+.. _RiverCare: https://kbase.ncr-web.org/rivercare
+.. _PyMC3: https://docs.pymc.io/
