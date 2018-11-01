@@ -10,16 +10,16 @@
 
 About
 ===============================================================================
-''coral'' is a Python package for analysis of the output of two correlated models and to leverage such correlation for efficient uncertainty quantification. I have such methods in my PhD research (e.g. [#r1]_) and I'm now trying to clean up the code sufficiently to be useful for others :) :) If you found this helpful or want to help out, let me know!
+``coral`` is a Python package for analysis of the output of two correlated models and to leverage such correlation for efficient uncertainty quantification. I have used this method in my PhD research (e.g. [#r1]_) and I'm now trying to clean up the code sufficiently to be useful for others :) :) If you found this helpful or want to help out, let me know!
 
 Why would I use this?
 --------------------------------------------------------------------------------
-Wouldn't know. But here's why I needed something like this: I work a lot with environmental models in research and consulting work. These models are not only resource intensive (runtime of several hours or days is not uncommon) but also difficult to validate (to tell how accurate they are) [fn#1]_ . One way of dealing with this is to calculate how uncertainties in assumptions we make in setting up these models translates to uncertainty in model output. The go-to method for this is `Monte Carlo similation <https://en.wikipedia.org/wiki/Monte_Carlo_method>`_ --- which is just too expensive to be useful in practice. 
-''coral'' provides an alternative for Monte Carlo simulation. 
+Wouldn't know. But here's why I needed something like this: I work a lot with environmental models in research and consulting work. These models are not only resource intensive (runtime of several hours or days is not uncommon) but also difficult to validate (to tell how accurate they are) [#fn1]_ . One way of dealing with this is to calculate how uncertainties in assumptions we make in setting up these models translates to uncertainty in model output. The go-to method for this is `Monte Carlo similation <https://en.wikipedia.org/wiki/Monte_Carlo_method>`_ --- which is just too expensive to be useful in practice. 
+``coral`` provides an alternative for Monte Carlo simulation. 
 
 What's the catch?
 --------------------------------------------------------------------------------
-''coral'' provides an approximation of Monte Carlo results and is not a universal method. However, for some applications the approximation can be more than adequate (and better than no uncertainty quantification). The greatest catch is that you always need at least two models and that Monte Carlo simulation has to be done with one of them. This might sound like no improvement at all, but can actually lead to significant cost reduction if the 'Monte Carlo' model is smartly chosen. 
+``coral`` provides an approximation of Monte Carlo results and is not a universal method. However, for some applications the approximation can be more than adequate (and better than no uncertainty quantification). The greatest catch is that you always need at least two models and that Monte Carlo simulation has to be done with one of them. This might sound like no improvement at all, but can actually lead to significant cost reduction if the 'Monte Carlo' model is smartly chosen. 
 
 To Do: add examples
 
@@ -28,7 +28,7 @@ What's in a name
 --------------------------------------------------------------------------------
 Coral stands for 'correlated output regression analysis'. Coral is also fish-eggs, which with some imagination can be thought of as complicated 3D dotty plots. And dotty plots are the real stuff of science, aren't they. 
 
-Coral is based on an earlier 'mfps' package [#r1]_ and can be seen as the successor to that code. Changes include a refactor to Python 3.6+, support for non-linear response, more analysis tools and some functionality tests. 
+Coral is based on an earlier ``mfps`` package [#r1]_ and can be seen as the successor to that code. Changes include a refactor to Python 3.6+, support for non-linear response, more analysis tools and some functionality tests. 
 
 Development is fully done within the research programme RiverCare_ (project F1), at the University of Twente. 
 
@@ -62,7 +62,7 @@ To cite, please refer to [#r1]_.
 
 Footnotes
 --------------------------------------------------------------------------------
-.. [fn#1]:: For an excellent introductory write-up I recommend the now-classical Science article by Oreskes et al. [#r2].
+.. [#fn1]:: For an excellent introductory write-up I recommend the now-classical Science article by Oreskes et al. [#r2].
 
 References
 --------------------------------------------------------------------------------
