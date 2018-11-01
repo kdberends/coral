@@ -60,9 +60,9 @@ To cite this package
 --------------------------------------------------------------------------------
 To cite, please refer to [#r1]_. 
 
-Footnotes
---------------------------------------------------------------------------------
-.. [#fn1]:: For an excellent introductory write-up I recommend the now-classical Science article by Oreskes et al. [#r2].
+.. rubric:: Footnotes
+
+.. [#fn1] For an excellent introductory write-up I recommend the now-classical Science article by Oreskes et al. [#r2].
 
 References
 --------------------------------------------------------------------------------
