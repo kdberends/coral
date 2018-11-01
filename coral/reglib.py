@@ -29,7 +29,7 @@ import theano
 import numpy as np
 import pymc3 as pm
 import random
-from mflib.statsfunc import get_empirical_cdf, empirical_ppf
+from coral.statsfunc import get_empirical_cdf, empirical_ppf
 import matplotlib.pyplot as plt 
 
 # =============================================================================

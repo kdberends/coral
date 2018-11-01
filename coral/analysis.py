@@ -25,11 +25,11 @@ from netCDF4 import Dataset
 import numpy as np
 from scipy import stats
 from collections import namedtuple
-from mflib import reglib, utils, settings
-from mflib.statsfunc import invboxcox
+from coral import reglib, utils, settings
+from coral.statsfunc import invboxcox
 import matplotlib.pyplot as plt
-from mflib import settings
-from mflib.statsfunc import get_empirical_cdf, empirical_ppf
+from coral import settings
+from coral.statsfunc import get_empirical_cdf, empirical_ppf
 import random 
 
 if (sys.version_info > (3, 0)):
@@ -405,7 +405,7 @@ Figure = namedtuple('Figure', ['fig', 'title'])
 # =============================================================================
 
 
-def regression_analysis(predictor, response, subsample, **kwargs):
+def uncertainty_estimation(predictor, response, subsample, **kwargs):
     """
     Readme
     predictor, response: pandas dataframe with:

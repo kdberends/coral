@@ -29,7 +29,7 @@
 import os
 import sys
 import numpy as np 
-from mflib.statsfunc import empirical_ppf, get_empirical_cdf
+from coral.statsfunc import empirical_ppf, get_empirical_cdf
 from SALib.sample import sobol_sequence
 
 # =============================================================================

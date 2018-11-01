@@ -9,7 +9,7 @@ import numpy as np
 from scipy import stats
 from collections import namedtuple
 import matplotlib.pyplot as plt
-from mflib.statsfunc import get_empirical_cdf, empirical_ppf
+from coral.statsfunc import get_empirical_cdf, empirical_ppf
 import random 
 
 
