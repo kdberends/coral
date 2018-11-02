@@ -28,7 +28,7 @@ What's in a name
 --------------------------------------------------------------------------------
 Coral stands for 'correlated output regression analysis'. Coral is also fish-eggs, which with some imagination can be thought of as complicated 3D dotty plots. And dotty plots are the real stuff of science, aren't they. 
 
-Coral is based on an earlier ``mfps`` package [#r1]_ and can be seen as the successor to that code. Changes include a refactor to Python 3.6+, support for non-linear response, more analysis tools and some functionality tests. 
+Coral is based on an earlier ``mfps`` package [#r1]_ and can be seen as the successor to that code. It is entirely rewritten for Python 3.6+, adds support for non-linear response, more analysis tools and some functionality tests. 
 
 Development is fully done within the research programme RiverCare_ (project F1), at the University of Twente. 
 
@@ -38,6 +38,8 @@ To-do's
 
 - add tutorial/notebooks
 - hook up to testing/docs
+- more pre-analysis tools
+- optimise package loading
 
 
 Installation
