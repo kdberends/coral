@@ -4,9 +4,9 @@
     :alt: coralfig
 
 
-**[Note: be aware that the code is currently under development. Namespaces and function names may be subject to change. Do get in touch if you want to use it :)]**
+**[!!!Note: be aware that the code is currently under development. Namespaces and function names may be subject to change. Do get in touch if you want to use it :) !!!]**
 
-
+Version: 0.1-alpha
 
 About
 ===============================================================================
@@ -19,9 +19,7 @@ Wouldn't know. But here's why I needed something like this: I work a lot with en
 
 What's the catch?
 --------------------------------------------------------------------------------
-``coral`` provides an approximation of Monte Carlo results and is not a universal method. However, for some applications the approximation can be more than adequate (and better than no uncertainty quantification). The greatest catch is that you always need at least two models and that Monte Carlo simulation has to be done with one of them. This might sound like no improvement at all, but can actually lead to significant cost reduction if the 'Monte Carlo' model is smartly chosen. 
-
-To Do: add examples
+``coral`` provides an approximation of Monte Carlo results and is not a universal method. However, for some applications the approximation can be more than adequate (and better than no uncertainty quantification). The greatest catch is that you always need at least two models and that Monte Carlo simulation has to be done with one of them. This might sound like no improvement at all, but can actually lead to significant cost reduction if the 'Monte Carlo' model is smartly chosen. See [#r1]_ for the methodological background. One of the examples of [#r1]_ is implemented in a jupyter notebook (see docs). 
 
 
 What's in a name
