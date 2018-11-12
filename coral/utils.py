@@ -1,59 +1,18 @@
-"""
-Utilities, convenience functions
-"""
+""" Utilities, convenience functions """
 
 # =============================================================================
 # Imports
 # =============================================================================
 
 import os
-import sys
 import logging
-import configparser
-import seaborn as sns
-import calendar
-from datetime import datetime
-if (sys.version_info > (3, 0)):
-    from io import StringIO
-else:
-    from cStringIO import StringIO
 
-flatui = ["#9b59b6", "#3498db", "#95a5a6", "#e74c3c", "#34495e", "#2ecc71"]
-flatui_r = list(reversed(flatui))
-
-# Configuration file parsing types
-configtypes = """[parameters]
-datetimefmt=str
-geometrytype=int
-g=float
-tstart=datetime
-tstop=datetime
-dt=int
-dx=int
-frictionmodel=str
-growthmodel=str
-blockagemodel=str
-"""
-
-eventypes= """[event]
-eventtype=str
-tstart=datetime
-minchainage=float
-maxchainage=float
-reduce_to=float
-maximum_blockage=float
-triggered=bool
-name=str
-"""
-
-datetimeformat = '%d/%m/%Y'
 # =============================================================================
 # Definitions
 # =============================================================================
 
 
-def get_logger(outputpath=os.getcwd(), logfile='log.log',
-               overwrite=False, loggerlevel='info', name=__name__):
+def get_logger(outputpath=os.getcwd(), logfile='log.log', overwrite=False, loggerlevel='info', name=__name__):
     """
     Returns a logger object which:
     -
