@@ -4,9 +4,7 @@
     :alt: coralfig
 
 
-**[!!!Note: be aware that the code is currently under development. Namespaces and function names may be subject to change. Do get in touch if you want to use it :) !!!]**
-
-Version: 0.1-alpha 
+Version: 0.1 (academic)
 
 
 About
